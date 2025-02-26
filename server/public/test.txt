@@ -1,0 +1,9 @@
+//write a poem 
+    let poem = "I am a poet, I write poems\n" +
+                "My words are my voice, my thoughts are my song\n" +
+                "I create worlds with my pen, and bring them to life\n" +
+                "With every line, I tell a story, and make it real\n";      
+    //write the poem to a file  
+        fs.writeFileSync('assets/test.txt', poem);
+
+            console.log("Poem written successfully!");
